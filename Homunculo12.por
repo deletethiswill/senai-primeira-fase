@@ -1,17 +1,15 @@
 programa {
   funcao inicio() {
-    cadeia nome
-    real nota1, nota2, nota3, media, frequencia
-    nota1 = 10
-    nota2 = 10
-    nota3 = 10
-    media = (nota1 + nota2 + nota3) / 3
-    frequencia = 0.2
-    se(media >= 7 frequencia>= 7.5){
-      escreva("APROVADO POHA!!!!!!")
-     } senao{
-        escreva("SEFUDEU") }
-    }
-    }
-
-
+     real media, n1, n2, n3, n4
+  escreva("n1 = ")
+  leia(n1)
+  escreva("n2 = ")
+  leia(n2)
+  escreva("n3 = ")
+  leia(n3)
+  escreva("n4 = ")
+  leia(n4)
+  media = (n1+n2+n3+n4)/4
+  escreva (media)
+  }
+}
